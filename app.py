@@ -41,7 +41,7 @@ if selected_menu == "About":
 
     st.title("KLASIFIKASI BIJI KOPI")
 
-    image = Image.open("C:/Users/ASUS/Desktop/BDC_SE_2023/BIJI_KOPI.jpg")
+    image = Image.open("BIJI_KOPI.jpg")
     st.image(image, caption='https://assets.kompasiana.com/items/album/ ')
 
         # Deskripsi
