@@ -2,7 +2,7 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 from tensorflow.keras.models import load_model
-from PIL import Image22
+from PIL import Image
 
 # Load the model
 loaded_model = load_model('dense_sigmoid_model.h5')
