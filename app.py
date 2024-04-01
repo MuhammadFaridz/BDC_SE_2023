@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Load the model
-loaded_model = load_model('BDC_SE_2023/dense_sigmoid_model.h5')
+loaded_model = load_model('dense_sigmoid_model.h5')
 
 # Set target image size (you need to define IMAGE_SIZE)
 IMAGE_SIZE = (200, 200)
